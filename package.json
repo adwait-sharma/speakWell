@@ -27,6 +27,8 @@
     "@nestjs/platform-express": "^10.0.0",
     "axios": "^1.7.2",
     "D": "^1.0.0",
+    "mime-types": "^2.1.35",
+    "probe-image-size": "^7.2.3",
     "reflect-metadata": "^0.2.0",
     "rxjs": "^7.8.1"
   },
