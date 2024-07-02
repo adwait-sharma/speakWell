@@ -13,3 +13,15 @@ export const FILE_NAME_REGEX = new RegExp(
   '^[.]+|[`#%^\\+\\\\/\\?\\*:|\\"\\\'<>\\s\\{\\}=,_]+',
   'g',
 );
+
+export const DEFAULT_FRAMES = 25;
+export const DEFAULT_AUDIO_DIR = './uploads/audio';
+export const DEFAULT_FRAMES_DIR = './uploads/frames';
+export const MAX_OUTPUT_TOKENS = 500;
+export const GPT_API_URL = 'https://api.openai.com/v1/chat/completions';
+
+export enum MODELS {
+  GPT_4_TURBO = 'gpt-4-turbo',
+  GPT_4_OMNI = 'gpt-4o',
+  GPT_WHISPER_1 = 'whisper-1',
+}

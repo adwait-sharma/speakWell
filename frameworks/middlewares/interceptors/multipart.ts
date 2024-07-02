@@ -7,11 +7,11 @@ import {
 import { of } from 'rxjs';
 import { tap } from 'rxjs/operators';
 import * as mimeTypes from 'mime-types';
+import { VIDEO_MIMETYPE } from 'frameworks/utils/resources/mimetype';
 import {
-  FILE_NAME_REGEX,
   MULTIPART_OPTIONS,
-} from 'utils/resources/app.constants';
-import { VIDEO_MIMETYPE } from 'utils/resources/mimetype';
+  FILE_NAME_REGEX,
+} from 'frameworks/utils/resources/app.constants';
 
 @Injectable()
 export class MultipartInterceptor implements NestInterceptor {

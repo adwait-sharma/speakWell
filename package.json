@@ -2,7 +2,7 @@
   "name": "speak-well",
   "version": "0.0.1",
   "description": "",
-  "author": "",
+  "author": "Adwait Sharma, Vivek Singh",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
@@ -23,15 +23,22 @@
     "-": "^0.0.1",
     "@fastify/multipart": "^8.3.0",
     "@nestjs/common": "^10.0.0",
+    "@nestjs/config": "^3.2.2",
     "@nestjs/core": "^10.0.0",
     "@nestjs/platform-express": "^10.0.0",
+    "@types/sharp": "^0.32.0",
     "axios": "^1.7.2",
     "D": "^1.0.0",
     "fluent-ffmpeg": "^2.1.3",
+    "html-to-text": "^9.0.5",
+    "jimp": "^0.22.12",
+    "marked": "^13.0.1",
     "mime-types": "^2.1.35",
+    "openai": "^4.52.1",
     "probe-image-size": "^7.2.3",
     "reflect-metadata": "^0.2.0",
-    "rxjs": "^7.8.1"
+    "rxjs": "^7.8.1",
+    "sharp": "^0.33.4"
   },
   "devDependencies": {
     "@nestjs/cli": "^10.0.0",
