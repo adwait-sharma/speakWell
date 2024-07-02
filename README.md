@@ -1,4 +1,4 @@
-# Speak Well :: Video and Audio Feedback System
+# Speak Well - Video and Audio Feedback System
 
 ## Overview
 SpeakWell is an intuitive web application designed to help you master the art of public speaking and improve your communication skills. Whether you’re preparing for a speech, presentation, or any form of public address, SpeakWell provides you with a detailed analysis and constructive feedback to enhance your performance. This project provides a feedback system for video and audio analysis using NestJS. The system consists of several key components: a controller to handle requests, services to perform the actual analysis, and an interceptor to manage file uploads.
