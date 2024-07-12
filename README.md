@@ -85,3 +85,7 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 
 ## License
 This project is licensed under the MIT License.
+
+## Authors
+- [Adwait Sharma](https://www.linkedin.com/in/adwait-sharma/)
+- [Vivek Singh](https://www.linkedin.com/in/vivek-singh-ml-learner/)
